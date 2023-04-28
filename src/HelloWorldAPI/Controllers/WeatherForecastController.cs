@@ -26,7 +26,8 @@ namespace HelloWorldAPI.Controllers
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)],
-                City = "São Paulo"
+                City = "São Paulo", 
+
             })
             .ToArray();
         }
