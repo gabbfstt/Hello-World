@@ -10,6 +10,6 @@ namespace HelloWorldAPI
 
         public string? Summary { get; set; }
 
-        public string City { get; set; }
+        public string? City { get; set; }
     }
 }
